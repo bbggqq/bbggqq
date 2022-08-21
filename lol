@@ -4,7 +4,7 @@
 repeat wait(1) until game:IsLoaded()
 
 if getgenv().Settings.LeaveTimer == nil then
-    getgenv().Settings.LeaveTimer = 180
+    getgenv().Settings.LeaveTimer = 300
 end
 
 function log(message, type)
@@ -20,7 +20,7 @@ if game.PlaceId == 7127407851 then
     local args = {
         [1] = "VIP",
         [2] = "Join",
-        [3] = "Code"
+        [3] = "Yw410dK"
     }
 
     --game:GetService("ReplicatedStorage").Assets.Remotes:GetChildren()[2]:InvokeServer(unpack(args))
